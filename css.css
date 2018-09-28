@@ -1,12 +1,18 @@
+@font-face {
+     font-family: defonarts;
+     src: url('DeFonarts Bold.otf');
+}
+
 body,*{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	text-decoration: none;
 }
 
 .topo{
 	height: 50px;
-	background: black;
+	background: #2f2f2e;
 }
 
 .topoint{
@@ -16,39 +22,42 @@ body,*{
 }
 
 .menu-topo{
-	background: blue;
 	height: 50px;
-	width: 400px;
+	width: 430px;
 	float: right;
 }
 .logomarca {
 	height: 50px;
-	width: 570px;
+	width: 540px;
 	float: left;
 	color: white;
     font-size: 25px;
     line-height: 50px;
-    font-family: fantasy;
+    font-family: defonarts, fantasy;
 }
 .menu-topo  li{
 	display: inline-block;
-	text-transform: uppercase;
-	color: white;
 	height: 50px;
 	line-height: 50px;
 	padding-left: 15px;
 	padding-right: 15px;
+}
+.menu-topo li a{
+	text-transform: uppercase;
+	color: white;
 	font-size: 12px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
 }
 
-.menu-topo li:last-child{
-	padding-right: 0px;
+.menu-topo li:hover{
+	background: #3480c1;
 }
 
 /*BANNNER*/
 .banner	{
 	height: 300px;
-	background: blue;
+	background: #347aba;
 }
 
 .bannerint{
@@ -65,13 +74,14 @@ body,*{
 	padding: 50px 0px 30px 20px;
 }
 .frase h1{
-	font-size: 60px;
-	font-family: sans-serif;
+	font-size: 48px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
 }
 
 .frase p{
-	font-size: 22px;
-	font-family: sans-serif;
+	font-size: 20px;
+	font-family: Arial, sans-serif;
 	margin-bottom: 20px;
 }
 
@@ -79,15 +89,15 @@ body,*{
 	width: 280px;
     height: 60px;
     border-radius: 10px;
-    background: yellow;
+    background: #ffc001;
     display: block;
     line-height: 60px;
     text-align: center;
     text-decoration: none;
     color: black;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
 }
 .homem{
 	width: 460px;
@@ -127,7 +137,7 @@ body,*{
 }
 
 .footer{
-	background: blue;
+	background: #347aba;
 	height: 50px;
 }
 
@@ -136,7 +146,9 @@ body,*{
 	width: 970px;
 	height: 50px;
 	color: white;
-	font-size: 20px;
+	font-size: 12px;
 	text-align: center;
 	line-height: 50px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
 }
